@@ -1,0 +1,152 @@
+@import "../../../Styles/index"
+
+address
+  position: relative
+  a
+    @include font(100px, 100px, 700, $black)
+    text-decoration: none
+    border-bottom: 5px solid $black
+
+    @media screen and (max-width: 800px)
+      @include font(30px, 34px, 700, $black)
+
+  div
+    width: 180px
+    height: 180px
+    border-radius: 50%
+    position: absolute
+    top: -95px
+    left: 875px
+
+    @media screen and (max-width: 1060px)
+      left: calc(100% - 180px)
+      top: -170px
+
+    @media screen and (max-width: 500px)
+      width: 140px
+      height: 140px
+
+    @media screen and (max-width: 450px)
+      left: 50%
+
+  span.roll
+    background-color: $white
+    background-image: url('../../../../public/btn-arrow-white.svg')
+    background-position: center center
+    display: block
+    width: 180px
+    height: 180px
+    border-radius: 50%
+    @media screen and (max-width: 500px)
+      width: 140px
+      height: 140px
+
+  span.roll-black
+    content: ''
+    background-color: $black
+    background-position: center center
+    display: block
+    width: 180px
+    height: 180px
+    border-radius: 50%
+    position: absolute
+    top: 0
+    background-image: url('../../../../public/btn-arrow-black.svg')
+    transition: all .3s ease-in
+
+    @media screen and (max-width: 500px)
+      width: 140px
+      height: 140px
+
+    &.min
+      clip-path: circle(0% at 50% 50%)
+    &.max
+      clip-path: circle(100% at 50% 50%)
+
+footer
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  align-items: center
+  padding: 60px 0 0
+  background: $green
+  @media screen and (max-width: 1060px)
+    padding: 120px 0 0
+  div.card
+    padding: 0
+    @media screen and (max-width: 1060px)
+      width: 90%
+
+  .rolling-text
+    overflow-x: hidden
+    margin: 110px 0 40px
+    height: 170px
+    width: 100%
+    position: relative
+    @media screen and (max-width: 500px)
+      height: 70px
+      margin: 40px 0 20px
+
+    strong
+      @include font(160px, 160px, 700, $white)
+      height: 160px
+      opacity: 0.2
+      position: absolute
+      top: 0
+      left: 0
+      animation: roll-text 4s linear infinite
+      @media screen and (max-width: 500px)
+        height: 50px
+        @include font(60px, 60px, 700, $white)
+
+  @keyframes roll-text
+    0%
+      left: -1700px
+    100%
+      left: 1700px
+
+  ul
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    align-items: baseline
+    padding: 20px 10px
+    gap: 10px
+    margin: 0 auto
+    width: 100%
+    border-top: 1px solid #F0F0F0
+
+    @media screen and (max-width: 768px)
+      flex-wrap: wrap
+    @media screen and (max-width: 550px)
+      justify-content: flex-start
+      flex-direction: column
+    li
+      border: none
+      color: $white
+      display: flex
+      justify-content: center
+
+      @include font(24px, 28px, 600, $white)
+
+      @media screen and (max-width: 900px)
+        @include font(18px, 20px, 600, $white)
+        max-width: 100%
+
+      h3
+        max-width: 371px
+        text-align: center
+        @include font(24px, 28px, 600, $white)
+
+        @media screen and (max-width: 900px)
+          @include font(18px, 20px, 600, $white)
+
+
+      a
+        @include font(24px, 28px, 600, $white)
+        text-decoration: none
+        border-bottom: 2px solid $white
+        white-space: nowrap
+        @media screen and (max-width: 900px)
+          @include font(18px, 20px, 600, $white)
+          text-align: center

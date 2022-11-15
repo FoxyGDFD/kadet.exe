@@ -1,0 +1,42 @@
+@import "../../Styles/index"
+
+button
+  padding: 0 21.5px
+  border-radius: 20px
+
+  background: #F0F0F0
+  outline: none
+  border: none
+  transition: all .3s ease-in-out
+
+  @include font(18px, 20px, 600, $black)
+
+  div
+    height: 60px
+    width: 233px
+    display: flex
+    flex-direction: row
+    flex-wrap: nowrap
+    align-items: center
+    justify-content: space-between
+
+    .circle
+      position: relative
+      align-self: center
+      background-color: $black
+      clip-path: circle(15% at 50% 50%)
+      color: $black
+      width: 40px
+      height: 40px
+      border-radius: 50%
+      transition: all .3s ease-in
+
+  &:hover
+    background-color: #2C2C2C
+    color: $white
+
+    div .circle
+      clip-path: circle(100% at 50% 50%)
+      background-color: $white
+      width: 40px
+      height: 40px

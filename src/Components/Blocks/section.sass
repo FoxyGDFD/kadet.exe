@@ -1,0 +1,125 @@
+@import "../../Styles/index"
+
+
+article
+  display: flex
+  gap: 10px
+  width: 100%
+  max-width: 1200px
+  margin: 0 auto
+  @media screen and (max-width: 1024px)
+    width: 90%
+
+  @media screen and (max-width: 500px)
+    flex-wrap: wrap
+
+    section.card
+      margin: 20px 0
+
+section.card
+  margin: 60px auto
+  max-width: 1200px
+  width: 100%
+  @media screen and (max-width: 1024px)
+    width: 90%
+
+  @media screen and (max-width: 500px)
+    flex-wrap: wrap
+
+  &.inline
+    display: inline-block
+
+div.card
+  padding: 60px 0
+  margin: 0 auto
+  max-width: 1200px
+  width: 100%
+  @media screen and (max-width: 1024px)
+    width: 90%
+    padding: 20px
+
+p.dark
+  @include font(20px, 28px, 500, $white)
+
+
+ul.row-list
+  display: flex
+  flex-direction: row
+
+  flex-wrap: nowrap
+  gap: 24px
+
+  @media screen and (max-width: 800px)
+    flex-direction: column
+
+  &.wrap
+    flex-wrap: wrap
+
+    li
+      margin-bottom: 40px
+      max-width: 300px
+      width: 100%
+
+  li
+    border: none
+
+ul.column-list
+  display: flex
+  flex-direction: column
+
+  flex-wrap: nowrap
+  gap: 24px
+  width: 100%
+
+  &.wrap
+    flex-wrap: wrap
+
+    li
+      width: 100%
+      margin-bottom: 40px
+
+  li
+    border: none
+
+
+.img-list
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  gap: 24px
+  flex-wrap: nowrap
+
+  @media screen and (max-width: 1024px)
+    flex-wrap: wrap
+
+  img
+    @media screen and (max-width: 850px)
+      width: 90vw
+
+  ul
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    width: 100%
+
+    li
+      border-bottom: 2px solid #CCCCCC
+      padding: 10px 0
+      @media screen and (max-width: 800px)
+        max-width: 100%
+        width: 100%
+
+
+section.dark
+  background-color: $black
+  margin: 0 auto
+  width: 100%
+
+  div.card
+    padding: 60px 0
+    margin: 0 auto
+    max-width: 1200px
+    width: 100%
+    @media screen and (max-width: 1024px)
+      width: 90%
+

@@ -1,0 +1,86 @@
+$black: #2C2C2C
+$white: #F0F0F0
+$green: #16CD8B
+$blue: #16A1CD
+
+@mixin font($size, $lh, $fw, $color)
+  font-family: 'Raleway', sans-serif
+  font-style: normal
+  font-size: $size
+  line-height: $lh
+  font-weight: $fw
+  color: $color
+
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  z-index: 2
+
+
+
+h1
+  @include font(100px, 100px, 700, $white)
+
+  @media screen and (max-width: 850px)
+    @include font(80px, 80px, 600, $white)
+    padding: 0 0 40px 0
+
+  @media screen and (max-width: 800px)
+    @include font(38px, 38px, 600, $white)
+    padding: 0 0 40px 0
+
+h1.black
+  @include font(100px, 100px, 700, $black)
+  @media screen and (max-width: 800px)
+    @include font(38px, 38px, 600, $black)
+h2
+  @include font(50px, 50px, 700, $green)
+  margin-bottom: 80px
+  @media screen and (max-width: 800px)
+    @include font(30px, 34px, 700, $green)
+    margin-bottom: 40px
+
+h2.white
+  @include font(50px, 50px, 700, $white)
+  margin-bottom: 40px
+  @media screen and (max-width: 800px)
+    @include font(30px, 34px, 700, $white)
+    margin-bottom: 40px
+  @media screen and (max-width: 570px)
+    width: 142px
+
+h3
+  @include font(28px, 34px, 600, $black)
+  margin-bottom: 20px
+
+  @media screen and (max-width: 800px)
+    @include font(24px, 28px, 600, $black)
+    margin-bottom: 10px
+
+h3.white
+  @include font(28px, 34px, 600, $white)
+  margin-bottom: 20px
+
+  @media screen and (max-width: 800px)
+    @include font(24px, 28px, 600, $white)
+    max-width: 344px
+    margin-bottom: 10px
+
+h3.blue
+  @include font(28px, 34px, 600, $blue)
+  margin-bottom: 20px
+
+h4
+  @include font(28px, 33px, 600, $blue)
+  margin-bottom: 40px
+
+p
+  @include font(20px, 28px, 500, $black)
+
+ul
+  list-style: none
+  @include font(28px, 33px, 600, $black)
+  li
+    max-width: 384px
