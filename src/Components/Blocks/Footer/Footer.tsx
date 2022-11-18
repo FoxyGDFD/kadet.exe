@@ -1,5 +1,5 @@
 import React from 'react';
-import {address, contacts, footer, infoHeader, organization} from "../../Content";
+import {address, contacts, footer, mainHeader, organization} from "../../Content";
 import './footer.sass';
 import Section from "../Section/Section";
 
@@ -52,7 +52,7 @@ function Footer() {
       <dialog style={{display: modal ? "flex" : 'none'}}>
         <article className='container'>
           <div className="title">
-            <h2>{infoHeader.title}</h2>
+            <h2>{mainHeader.title}</h2>
             <span onClick={() => setModal(!modal)} />
           </div>
           <div className='main-aside'>

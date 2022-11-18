@@ -90,9 +90,9 @@ export const analytic = {
    }
 };
 
-export const infoHeader = {
+export const mainHeader = {
   nav: 'KADET.EXE',
-  title: 'Информация об организации',
+  title: 'Разработка в сфере недвижимости',
   image: {
     src: '/header.svg',
     alt: '',
@@ -156,4 +156,4 @@ export const footer = {
       text: 'Designed by Vlas Zdunov',
     },
   },
-}
+};

@@ -1,5 +1,5 @@
 import React from 'react';
-import {header, infoHeader} from "../../Content";
+import { header, mainHeader } from "../../Content";
 import './header.sass';
 import {useNavigate} from "react-router-dom";
 
@@ -30,8 +30,8 @@ const Header = ({type = 'not'}: IHeader) => {
         {header.nav.title}
       </nav>
       <section>
-        <h1 className='green'>{infoHeader.title}</h1>
-        <img className='img-header' src={infoHeader.image.src} alt={header.image.alt} />
+        <h1 className='green'>{mainHeader.title}</h1>
+        <img className='img-header' src={mainHeader.image.src} alt={header.image.alt} />
       </section>
     </header>
   );
