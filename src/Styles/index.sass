@@ -18,10 +18,23 @@ $blue: #16A1CD
   box-sizing: border-box
   z-index: 2
 
+  &::-webkit-scrollbar
+    width: 15px
+    height: 15px
 
+  &::-webkit-scrollbar-thumb
+    background-color: #818181
+    border-radius: 5px
+
+  &::-webkit-scrollbar-track
+    background-color: $black
+    //background-color: #ffffff
+
+main
+  background-color: $black
 
 h1
-  @include font(100px, 100px, 700, $white)
+  @include font(80px, 80px, 600, $white)
 
   @media screen and (max-width: 850px)
     @include font(80px, 80px, 600, $white)
@@ -31,32 +44,32 @@ h1
     @include font(38px, 38px, 600, $white)
     padding: 0 0 40px 0
 
-h1.black
-  @include font(100px, 100px, 700, $black)
+h1.green
+  @include font(80px, 80px, 600, $green)
   @media screen and (max-width: 800px)
-    @include font(38px, 38px, 600, $black)
+    @include font(38px, 38px, 600, $green)
 h2
-  @include font(50px, 50px, 700, $green)
+  @include font(50px, 50px, 600, $green)
   margin-bottom: 80px
   @media screen and (max-width: 800px)
-    @include font(30px, 34px, 700, $green)
+    @include font(30px, 34px, 600, $green)
     margin-bottom: 40px
 
 h2.white
-  @include font(50px, 50px, 700, $white)
+  @include font(50px, 50px, 600, $white)
   margin-bottom: 40px
   @media screen and (max-width: 800px)
-    @include font(30px, 34px, 700, $white)
+    @include font(30px, 34px, 600, $white)
     margin-bottom: 40px
   @media screen and (max-width: 570px)
     width: 142px
 
 h3
-  @include font(28px, 34px, 600, $black)
+  @include font(28px, 34px, 600, $white)
   margin-bottom: 20px
 
   @media screen and (max-width: 800px)
-    @include font(24px, 28px, 600, $black)
+    @include font(24px, 28px, 600, $white)
     margin-bottom: 10px
 
 h3.white
@@ -76,11 +89,160 @@ h4
   @include font(28px, 33px, 600, $blue)
   margin-bottom: 40px
 
+h5
+  max-width: 550px
+  width: 100%
+  @include font(30px, 40px, 600, #ABABAB)
+  @media screen and (max-width: 800px)
+    @include font(20px, 24px, 600, #ABABAB)
 p
-  @include font(20px, 28px, 500, $black)
+  @include font(20px, 28px, 500, #ABABAB)
+
 
 ul
   list-style: none
-  @include font(28px, 33px, 600, $black)
+  @include font(28px, 33px, 600, $white)
   li
     max-width: 384px
+nav
+  @include font(28px, 33px, 800, $blue)
+  position: relative
+  width: 100%
+  max-width: 1200px
+  height: 80px
+  margin: 0 auto
+
+  display: flex
+  justify-content: start
+  align-items: center
+  gap: 50px
+
+  @media screen and (max-width: 1024px)
+    width: 90%
+
+  button
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    padding: 11px 43px
+    background: #5F5F5F
+    border-radius: 10px
+    border: none
+    outline: none
+    @include font(16px, 20px, 500, $white)
+
+dialog
+  background-color: #00000055
+  border: none
+  width: 100%
+  height: 100%
+  display: flex
+  position: fixed
+  bottom: 0
+
+  article.container
+    display: flex
+    flex-direction: column
+    border-radius: 20px 20px 0 0
+    background-color: #454545
+    max-width: 1280px
+    width: 100%
+    height: 1000px
+    margin: 0 auto
+    padding: 40px 40px 10px 40px
+    align-self: end
+    flex-wrap: nowrap
+
+    @media screen and (max-width: 768px)
+      height: 90vh
+      overflow-y: scroll
+
+  .title
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    margin-bottom: 60px
+    @media screen and (max-width: 800px)
+      margin-bottom: 20px
+
+    h2
+      margin: 0
+      @include font(60px, 60px, 700, $white)
+      @media screen and (max-width: 800px)
+        @include font(30px, 34px, 700, $white)
+
+
+
+    span
+      width: 30px
+      height: 30px
+      position: relative
+
+      &:before
+        content: ''
+        display: block
+        width: 28px
+        height: 2px
+        background-color: $white
+        border-radius: 2px
+        transform: rotate(-45deg)
+        position: absolute
+        top: 15px
+        left: 0
+
+      &:after
+        content: ''
+        display: block
+        width: 28px
+        height: 2px
+        background-color: $white
+        border-radius: 2px
+        transform: rotate(45deg)
+        position: absolute
+        top: 15px
+        left: 0
+
+
+  div.main-aside
+    display: flex
+    flex-wrap: nowrap
+    justify-content: space-between
+    width: 100%
+    @media screen and (max-width: 768px)
+      flex-wrap: wrap
+
+  section
+    max-width: 588px
+    width: 100%
+    padding: 0 0 60px 0
+    @media screen and (max-width: 800px)
+      padding: 0 0 30px 0
+    .card
+      padding: 0
+      margin: 0
+
+      ul.row-list
+        @media screen and (max-width: 1060px)
+          flex-direction: column
+
+      h2
+        @include font(30px, 40px, 700, $green)
+        margin-bottom: 40px
+        @media screen and (max-width: 800px)
+          @include font(25px, 30px, 700, $green)
+          margin-bottom: 20px
+
+      h3
+        @include font(24px, 30px, 600, $white)
+        margin-bottom: 20px
+        @media screen and (max-width: 800px)
+          @include font(20px, 26px, 700, $white)
+          margin-bottom: 10px
+
+      p
+        @include font(18px, 24px, 500, $white)
+
+i
+  color: $blue
+  font-style: normal

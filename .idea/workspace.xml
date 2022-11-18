@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47bd1f7e-adc7-465f-843d-2b11cae63c79" name="Changes" comment="" />
+    <list default="true" id="47bd1f7e-adc7-465f-843d-2b11cae63c79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Pages/Product.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fonsts/Railway/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Fonsts/Railway/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Dark/Dark.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Footer/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/Footer/footer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Header/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/Header/header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Light/Light.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/Section/Section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/section.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/section.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Info.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/index.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Button/button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Button/button.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +127,9 @@
       <workItem from="1668362052823" duration="20103000" />
       <workItem from="1668419550555" duration="5824000" />
       <workItem from="1668506816032" duration="28119000" />
-      <workItem from="1668551004566" duration="586000" />
+      <workItem from="1668551004566" duration="852000" />
+      <workItem from="1668716942553" duration="10000" />
+      <workItem from="1668746314048" duration="23536000" />
     </task>
     <servers />
   </component>

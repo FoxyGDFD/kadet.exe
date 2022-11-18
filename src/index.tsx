@@ -4,8 +4,8 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 import './Styles/index.sass';
 
-import Main from './Pages/Main';
-import Info from "./Pages/Info";
+import Product from './Pages/Product';
+import Main from "./Pages/Main";
 import Footer from "./Components/Blocks/Footer/Footer";
 
 
@@ -18,7 +18,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Main />} />
-        <Route path='/info/' element={<Info />} />
+        <Route path='/product/' element={<Product />} />
       </Routes>
     </BrowserRouter>
     <Footer />

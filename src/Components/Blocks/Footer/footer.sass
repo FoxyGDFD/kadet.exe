@@ -18,7 +18,7 @@ address
     top: -95px
     left: 875px
 
-    @media screen and (max-width: 1060px)
+    @media screen and (max-width: 1080px)
       left: calc(100% - 180px)
       top: -170px
 
@@ -70,7 +70,7 @@ footer
   align-items: center
   padding: 60px 0 0
   background: $green
-  @media screen and (max-width: 1060px)
+  @media screen and (max-width: 1080px)
     padding: 120px 0 0
   div.card
     padding: 0
@@ -118,15 +118,16 @@ footer
 
     @media screen and (max-width: 768px)
       flex-wrap: wrap
+
     @media screen and (max-width: 550px)
       justify-content: flex-start
       flex-direction: column
+
     li
       border: none
       color: $white
       display: flex
       justify-content: center
-
       @include font(24px, 28px, 600, $white)
 
       @media screen and (max-width: 900px)
@@ -141,6 +142,16 @@ footer
         @media screen and (max-width: 900px)
           @include font(18px, 20px, 600, $white)
 
+
+      p
+        @include font(24px, 28px, 600, $white)
+        text-decoration: none
+        border-bottom: 2px solid $white
+        white-space: nowrap
+        cursor: pointer
+        @media screen and (max-width: 900px)
+          @include font(18px, 20px, 600, $white)
+          text-align: center
 
       a
         @include font(24px, 28px, 600, $white)

@@ -15,7 +15,7 @@ that aren’t available as static fonts. Not all apps support variable fonts, an
 in those cases you can use the static font files for Raleway:
   static/Raleway-Thin.ttf
   static/Raleway-ExtraLight.ttf
-  static/Raleway-Light.ttf
+  static/Raleway-Section.ttf
   static/Raleway-Regular.ttf
   static/Raleway-Medium.ttf
   static/Raleway-SemiBold.ttf
