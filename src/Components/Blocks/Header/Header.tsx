@@ -10,7 +10,7 @@ interface IHeader {
 const Header = ({type = 'not'}: IHeader) => {
   const navigate = useNavigate();
   if (type === 'index') return (
-    <header className='index'>
+    <header>
       <nav>
         {header.nav.title}
         <button onClick={() => navigate('/')}>{header.nav.button.text}</button>

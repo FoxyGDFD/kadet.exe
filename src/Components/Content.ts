@@ -57,6 +57,13 @@ export const notifications = {
   }
 };
 
+export const mImage = {
+  image: {
+    src: '/map.svg',
+    alt: '',
+  }
+}
+
 export const map = {
   title: 'Используйте возможности встроенной карты',
   list: [
@@ -66,7 +73,7 @@ export const map = {
   ],
   image: {
     src: '/map.svg',
-    alt: ''
+    alt: '',
   }
 };
 
@@ -85,7 +92,7 @@ export const analytic = {
 
 export const infoHeader = {
   nav: 'KADET.EXE',
-  title: 'Разработка в сфере недвижимости',
+  title: 'Информация об организации',
   image: {
     src: '/header.svg',
     alt: '',
@@ -115,7 +122,7 @@ export const address = {
     },
     {
       title: 'Юридический адрес',
-      description: 'Россия, 129626, г. Москва, Вн. Тер. г. Муниципальный округ Алексеевский\nПр-т Мира, д. 112, стр. 2, помещ. 14',
+      description: 'г. Москва, Мясницкий проезд, д. 3с1, оф. 603',
     },
   ],
 };
@@ -125,7 +132,7 @@ export const contacts = {
   list: [
     {
       title: 'Телефон',
-      description: '+ 7 (916) 056-68-47',
+      description: '+ 7 (495) 970-88-97',
     },
     {
       title: 'Электронная почта',

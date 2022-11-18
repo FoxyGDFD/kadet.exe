@@ -56,13 +56,8 @@ function Footer() {
             <span onClick={() => setModal(!modal)} />
           </div>
           <div className='main-aside'>
-            <div>
-              <Section title={organization.title} list={organization.list} />
-              <Section title={contacts.title} list={contacts.list} display='inline-block' listType='vertical' />
-            </div>
-            <aside>
-              <Section title={address.title} list={address.list} display='inline-block' listType='vertical' />
-            </aside>
+            <Section title={contacts.title} list={contacts.list} display='inline-block' listType='vertical' />
+            <Section title={address.title} list={address.list} display='inline-block' listType='vertical' />
           </div>
         </article>
       </dialog>

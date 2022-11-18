@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47bd1f7e-adc7-465f-843d-2b11cae63c79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pages/Product.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Blocks/Flex/Flex.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fonsts/Railway/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Fonsts/Railway/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Dark/Dark.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Footer/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/Footer/footer.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/Header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Header/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/Header/header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Light/Light.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/Section/Section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Section/Section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/Section/Section.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Blocks/section.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/section.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Info.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Product.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Styles/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/index.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Button/button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Button/button.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +43,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/GitHub/portfolio/kadet.exe/src/UI/Sections/Light&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;Sass&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\GitHub\\portfolio\\kadet.exe\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/GitHub/portfolio/kadet.exe/src/Pages",
+    "list.type.of.created.stylesheet": "Sass",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\GitHub\\portfolio\\kadet.exe\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -75,6 +70,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\portfolio\kadet.exe\src\Pages" />
       <recent name="C:\GitHub\portfolio\kadet.exe\src\UI\Sections\Light" />
       <recent name="C:\GitHub\portfolio\kadet.exe\src\Components\Sections\Footer" />
     </key>
@@ -129,7 +125,7 @@
       <workItem from="1668506816032" duration="28119000" />
       <workItem from="1668551004566" duration="852000" />
       <workItem from="1668716942553" duration="10000" />
-      <workItem from="1668746314048" duration="23536000" />
+      <workItem from="1668746314048" duration="28242000" />
     </task>
     <servers />
   </component>
