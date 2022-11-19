@@ -30,9 +30,14 @@ $blue: #16A1CD
     background-color: $black
     //background-color: #ffffff
 
-main
-  background-color: $black
+html
+  height: 100%
 
+  body
+    height: 100%
+    background-color: $green
+    main
+      background-color: $black
 h1
   @include font(80px, 80px, 600, $white)
 
@@ -137,117 +142,3 @@ nav
     outline: none
     @include font(16px, 20px, 500, $white)
     margin: 10px 0
-
-dialog
-  background-color: #00000055
-  border: none
-  width: 100%
-  height: 100%
-  display: flex
-  position: fixed
-  bottom: 0
-
-  article.container
-    display: flex
-    flex-direction: column
-    border-radius: 20px 20px 0 0
-    background-color: #454545
-    max-width: 1280px
-    width: 100%
-    margin: 0 auto
-    padding: 40px 40px 10px 40px
-    align-self: end
-    flex-wrap: nowrap
-
-    @media screen and (max-height: 900px)
-      overflow-y: auto
-      height: 95vh
-
-  .title
-    display: flex
-    flex-direction: row
-    justify-content: space-between
-    margin-bottom: 60px
-    @media screen and (max-width: 800px)
-      margin-bottom: 20px
-
-    h2
-      margin: 0
-      @include font(60px, 60px, 700, $white)
-      @media screen and (max-width: 800px)
-        @include font(30px, 34px, 700, $white)
-
-
-
-    span
-      width: 30px
-      height: 30px
-      position: relative
-
-      &:before
-        content: ''
-        display: block
-        width: 28px
-        height: 2px
-        background-color: $white
-        border-radius: 2px
-        transform: rotate(-45deg)
-        position: absolute
-        top: 15px
-        left: 0
-
-      &:after
-        content: ''
-        display: block
-        width: 28px
-        height: 2px
-        background-color: $white
-        border-radius: 2px
-        transform: rotate(45deg)
-        position: absolute
-        top: 15px
-        left: 0
-
-
-  div.main-aside
-    display: flex
-    flex-wrap: nowrap
-    justify-content: space-between
-    width: 100%
-    @media screen and (max-width: 768px)
-      flex-wrap: wrap
-
-  section
-    max-width: 588px
-    width: 100%
-    padding: 0 0 60px 0
-    @media screen and (max-width: 800px)
-      padding: 0 0 30px 0
-    .card
-      padding: 0
-      margin: 0
-
-      ul.row-list
-        @media screen and (max-width: 1060px)
-          flex-direction: column
-
-      h2
-        @include font(30px, 40px, 700, $green)
-        margin-bottom: 40px
-        @media screen and (max-width: 800px)
-          @include font(25px, 30px, 700, $green)
-          margin-bottom: 20px
-
-      h3
-        @include font(24px, 30px, 600, $white)
-        margin-bottom: 20px
-        @media screen and (max-width: 800px)
-          @include font(20px, 26px, 700, $white)
-          margin-bottom: 10px
-
-      p
-        @include font(18px, 24px, 500, $white)
-
-i
-  color: $blue
-  font-style: normal

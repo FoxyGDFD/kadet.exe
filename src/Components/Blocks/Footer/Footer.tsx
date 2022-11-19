@@ -1,16 +1,16 @@
 import React from 'react';
-import {address, contacts, footer, mainHeader, organization} from "../../Content";
+import {address, contacts, footer, mainHeader} from "../../Content";
 import './footer.sass';
 import Section from "../Section/Section";
 
 function Footer() {
   const [hover, setHover] = React.useState<boolean>(false);
-  const [className, setClassName] = React.useState<string>('roll-black min');
+  const [className, setClassName] = React.useState<string>('circle-black-black min');
   const [modal, setModal] = React.useState<boolean>(false);
 
   React.useEffect(() => hover ?
-      setClassName('roll-black max')
-      : setClassName('roll-black min')
+      setClassName('circle-black max')
+      : setClassName('circle-black min')
     , [hover])
 
   React.useEffect(() => console.log(modal), [modal]);
@@ -27,7 +27,7 @@ function Footer() {
               onMouseEnter={() => setHover(true)}
               onMouseLeave={() => setHover(false)}>
               <span
-                className='roll'
+                className='circle'
                 onMouseEnter={() => setHover(true)}
                 onMouseLeave={() => setHover(false)}
               ></span>
@@ -40,14 +40,14 @@ function Footer() {
             </a>
           </address>
         </div>
-          <div className="rolling-text">
-            <strong>{footer.rollText}</strong>
-          </div>
-          <ul>
-            <li><p onClick={() => setModal(!modal)}>{footer.linkList.info}</p></li>
-            <li>{footer.linkList.product}</li>
-            <li><a href={footer.linkList.designer.src}>{footer.linkList.designer.text}</a></li>
-          </ul>
+        <div className="rolling-text">
+          <strong>{footer.rollText}</strong>
+        </div>
+        <ul>
+          <li><p onClick={() => setModal(!modal)}>{footer.linkList.info}</p></li>
+          <li>{footer.linkList.product}</li>
+          <li><a target='_blank' href={footer.linkList.designer.src}>{footer.linkList.designer.text}</a></li>
+        </ul>
       </footer>
       <dialog style={{display: modal ? "flex" : 'none'}}>
         <article className='container'>
