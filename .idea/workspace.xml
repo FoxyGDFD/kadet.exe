@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47bd1f7e-adc7-465f-843d-2b11cae63c79" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/section.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/section.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Styles/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/index.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +117,7 @@
       <workItem from="1668551004566" duration="852000" />
       <workItem from="1668716942553" duration="10000" />
       <workItem from="1668746314048" duration="32633000" />
-      <workItem from="1668938394583" duration="5548000" />
+      <workItem from="1668938394583" duration="5859000" />
     </task>
     <servers />
   </component>
