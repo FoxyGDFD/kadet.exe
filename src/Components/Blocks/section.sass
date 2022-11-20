@@ -58,13 +58,16 @@ ul.row-list
 
     li
       margin-bottom: 40px
-      max-width: 300px
       width: 100%
+      &.multiple
+        max-width: 300px
 
   li
     border: none
     @media screen and (max-width: 1024px)
       max-width: 100%
+    &.multiple
+      max-width: 300px
 
 
 ul.column-list
@@ -79,13 +82,19 @@ ul.column-list
     flex-wrap: wrap
 
     li
+      max-width: 100%
       width: 100%
       margin-bottom: 40px
+      &.multiple
+        max-width: 300px
+
 
   li
     border: none
     @media screen and (max-width: 1024px)
       max-width: 100%
+    &.multiple
+      max-width: 300px
 
 
 .img-list
@@ -117,8 +126,15 @@ ul.column-list
       @media screen and (max-width: 800px)
         max-width: 100%
         width: 100%
+      &.multiple
+        max-width: 300px
+
       h3
         @include font(30px, 40px, 400, $white)
+
+      &.multiple
+        max-width: 300px
+
 
 .flex
   display: flex
@@ -137,6 +153,7 @@ ul.column-list
   p
     color: $white
     max-width: 384px
+    align-self: flex-end
 
   h3
     @include font(24px, 28px, 500, $white)

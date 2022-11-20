@@ -1,18 +1,18 @@
 import React from 'react';
 import Header from '../Components/Blocks/Header/Header';
-import { header, } from "../Components/Content";
+import {contacts, header,} from "../Components/Content";
 import DarkSection from "../UI/Sections/Dark/DarkSection";
 import Button from "../UI/Button/Button";
 import { useNavigate } from "react-router-dom";
 import Flex from '../Components/Blocks/Flex/Flex';
+import Section from "../Components/Blocks/Section/Section";
 
 const Main = () => {
   const  navigate = useNavigate();
   return(
     <>
       <Header />
-      <Flex title='Мы занимаемся' description='Разработкой ПО для управления недвижимостью юридических лиц' />
-
+      <Section title='Мы занимаемся' list={[{title: 'Разработкой ПО для управления недвижимостью юридических лиц', description: ''}]} display='inline-block' listType='vertical' />
       <DarkSection>
         <div>
           <h2>Наши продукты</h2>
@@ -27,14 +27,8 @@ const Main = () => {
         </div>
       </DarkSection>
       <DarkSection>
-        <div>
-          <h2>Продукт разработан в партнерстве с ООО “ДДХ – Кадастр и Консалтинг”</h2>
-          {/*<div className="flex">*/}
-          {/*  <h3><i>Лидер</i> рынка кадастровых <br/> и сопутствующих услуг</h3>*/}
-          {/*  <h3><i>Сооснователь</i> компании</h3>*/}
-          {/*  </div>*/}
-          </div>
-        </DarkSection>
+        <h2>Продукт разработан в партнерстве с ООО “ДДХ – Кадастр и Консалтинг”</h2>
+      </DarkSection>
     </>
   )
 };

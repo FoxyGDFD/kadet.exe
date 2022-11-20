@@ -13,8 +13,6 @@ function Footer() {
       : setClassName('circle-black min')
     , [hover])
 
-  React.useEffect(() => console.log(modal), [modal]);
-
   return (
     <>
       <footer>
