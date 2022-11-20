@@ -99,20 +99,6 @@ export const mainHeader = {
   }
 };
 
-export const organization = {
-  title: 'Наименование организации',
-  list: [
-    {
-      title: 'Полное',
-      description: 'Общество с ограниченной ответственностью «КАДЕТ.ЕХЕ»',
-    },
-    {
-      title: 'Сокращенное',
-      description: 'ООО «КАДЕТ.ЕХЕ»',
-    },
-  ]
-};
-
 export const address = {
   title: 'Адреса',
   list: [
