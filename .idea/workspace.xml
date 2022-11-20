@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="47bd1f7e-adc7-465f-843d-2b11cae63c79" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/Section/Section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/Section/Section.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Blocks/section.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/section.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Content.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Content.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/ListItemWithDescription/ListItemWithDescription.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ListItemWithDescription/ListItemWithDescription.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Styles/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/index.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +119,7 @@
       <workItem from="1668551004566" duration="852000" />
       <workItem from="1668716942553" duration="10000" />
       <workItem from="1668746314048" duration="32633000" />
-      <workItem from="1668938394583" duration="2783000" />
+      <workItem from="1668938394583" duration="4291000" />
     </task>
     <servers />
   </component>

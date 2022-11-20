@@ -46,6 +46,7 @@ p.dark
 ul.row-list
   display: flex
   flex-direction: row
+  justify-content: space-between
 
   flex-wrap: nowrap
   gap: 24px
@@ -59,16 +60,11 @@ ul.row-list
     li
       margin-bottom: 40px
       width: 100%
-      &.multiple
-        max-width: 300px
 
   li
     border: none
     @media screen and (max-width: 1024px)
       max-width: 100%
-    &.multiple
-      max-width: 300px
-
 
 ul.column-list
   display: flex
@@ -93,7 +89,7 @@ ul.column-list
     border: none
     @media screen and (max-width: 1024px)
       max-width: 100%
-    &.multiple
+    //&.multiple
       max-width: 300px
 
 
@@ -126,15 +122,9 @@ ul.column-list
       @media screen and (max-width: 800px)
         max-width: 100%
         width: 100%
-      &.multiple
-        max-width: 300px
 
       h3
         @include font(30px, 40px, 400, $white)
-
-      &.multiple
-        max-width: 300px
-
 
 .flex
   display: flex

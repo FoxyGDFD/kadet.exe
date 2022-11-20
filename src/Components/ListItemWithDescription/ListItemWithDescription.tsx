@@ -8,9 +8,7 @@ interface ITextWithDescription{
 }
 
 const ListItemWithDescription = ({type = 'light', size = 'multiple', title, description}: ITextWithDescription) => {
-  // const [style, setStyle] = React.useState('')
-  // React.useEffect(() => setStyle(size),[])
-  // React.useEffect(() => console.log(style),[style])
+
   return (
     <li className={size}>
       {title && type === 'light' && <h3>{title}</h3>}
