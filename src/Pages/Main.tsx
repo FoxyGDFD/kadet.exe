@@ -1,11 +1,13 @@
 import React from 'react';
-import Header from '../Components/Blocks/Header/Header';
-import {contacts, header,} from "../Components/Content";
-import DarkSection from "../UI/Sections/Dark/DarkSection";
-import Button from "../UI/Button/Button";
 import { useNavigate } from "react-router-dom";
+
+import Header from '../Components/Blocks/Header/Header';
 import Flex from '../Components/Blocks/Flex/Flex';
 import Section from "../Components/Blocks/Section/Section";
+import DarkSection from "../UI/Sections/Dark/DarkSection";
+import Button from "../UI/Button/Button";
+
+import { contacts, header } from "../Components/Content";
 
 const Main = () => {
   const  navigate = useNavigate();
