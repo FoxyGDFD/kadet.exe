@@ -14,7 +14,8 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
+    <>
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Main />} />
@@ -22,5 +23,6 @@ root.render(
       </Routes>
     </BrowserRouter>
     <Footer />
-  </React.StrictMode>
+    </>
+  // </React.StrictMode>
 );

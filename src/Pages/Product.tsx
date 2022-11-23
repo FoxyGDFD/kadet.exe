@@ -8,16 +8,27 @@ import '../Components/Blocks/section.sass';
 
 const Product = (): React.ReactElement => {
   
-  const navigate = useNavegate();
- 
-  React.useEffect(() => {
-    const redirectToMain = () => navigate('/');
-    window.addEventListener("beforeunload", redirectToMain);
-    window.removeEventListener("beforeunload", redirectToMain);
-    window.scrollTo(0, 0);
-  }, [])
+  const navigate = useNavigate();
 
-  
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+
+    const checkReloadHandler = () => {
+      const reloading = sessionStorage.getItem("reloading");
+      if (reloading === "false") {
+        navigate('/');
+        console.log('aAAAAAAA');
+        sessionStorage.setItem("reloading", "true");
+      } else {
+        sessionStorage.setItem("reloading", "false");
+        console.log('a');
+      }
+    }
+
+    checkReloadHandler();
+  }, []);
+
+
   return (
     <>
       <Header type='index'/>

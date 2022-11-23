@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47bd1f7e-adc7-465f-843d-2b11cae63c79" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/Blocks/section.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blocks/section.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/index.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fonsts/Railway/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fonsts/Railway/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fonsts/Railway/Raleway-Italic-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fonsts/Railway/Raleway-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Product.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,7 @@
         <option value="TypeScript File" />
         <option value="Sass File" />
         <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -34,23 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/GitHub/portfolio/kadet.exe/src/Pages&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;Sass&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\GitHub\\portfolio\\kadet.exe\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "18.12.1",
+    "javascript.nodejs.core.library.typings.version": "18.11.9",
+    "last_opened_file_path": "C:/GitHub/portfolio/kadet.exe/index.js",
+    "list.type.of.created.stylesheet": "Sass",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\GitHub\\portfolio\\kadet.exe\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -66,17 +74,14 @@
       <recent name="C:\GitHub\portfolio\kadet.exe\src\Components\Sections\Footer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\portfolio\kadet.exe" />
       <recent name="C:\GitHub\portfolio\kadet.exe\src\Components\Blocks" />
       <recent name="C:\GitHub\portfolio\kadet.exe\src\UI\Button" />
       <recent name="C:\GitHub\portfolio\kadet.exe\src\Components\Sections\Header" />
       <recent name="C:\GitHub\portfolio\kadet.exe\src\Components\Sections\Footer" />
-      <recent name="C:\GitHub\portfolio\kadet.exe\src\Components\Sections" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
-    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
-      <method v="2" />
-    </configuration>
     <configuration name="npm build" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -98,7 +103,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="npm.npm build" />
       <item itemvalue="npm.start" />
     </list>
@@ -117,7 +121,7 @@
       <workItem from="1668551004566" duration="852000" />
       <workItem from="1668716942553" duration="10000" />
       <workItem from="1668746314048" duration="32633000" />
-      <workItem from="1668938394583" duration="5859000" />
+      <workItem from="1668938394583" duration="11256000" />
     </task>
     <servers />
   </component>
