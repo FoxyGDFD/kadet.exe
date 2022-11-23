@@ -1,13 +1,23 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import Header from '../Components/Blocks/Header/Header';
 import Section from "../Components/Blocks/Section/Section";
 import {actInfo, prodInfo, map, analytic, notifications, mImage} from "../Components/Content";
 
-import '../Components/Blocks/section.sass'
+import '../Components/Blocks/section.sass';
 
 const Product = (): React.ReactElement => {
-  React.useEffect(() => window.scrollTo(0, 0), [])
+  
+  const navigate = useNavegate();
+ 
+  React.useEffect(() => {
+    const redirectToMain = () => navigate('/');
+    window.addEventListener("beforeunload", redirectToMain);
+    window.removeEventListener("beforeunload", redirectToMain);
+    window.scrollTo(0, 0);
+  }, [])
 
+  
   return (
     <>
       <Header type='index'/>
